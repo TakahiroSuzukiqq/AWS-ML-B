@@ -1,13 +1,14 @@
 * Installation
-
- - $ express app name --view=ejs  
- - $ npm install  
- - $ npm install dotenv --save   
- - $ npm install aws-sdk --save  
- - $ touch .gitignore  
- - $ touch .env  
- - $ README.md  
-  
+````  
+  $ express app name --view=ejs  
+  $ npm install  
+  $ npm install dotenv --save   
+  $ npm install aws-sdk --save  
+  $ touch .gitignore  
+  $ touch .env  
+  $ README.md  
+ ````  
+    
 * Unique key setup
   ````  
   index.ejs  
