@@ -30,18 +30,18 @@ $ README.md
 
 * Image  
   - Prediction using AWS ML API   
-    
-  <URL>  
+      
+  <a href="https://ibb.co/eBmrua"><img src="https://preview.ibb.co/ddAHZa/Screen_Shot_2017_07_14_at_17_51_24.png" alt="Screen_Shot_2017_07_14_at_17_51_24" border="0"></a><br />    
        
       
-  - Prediction from node.js using aws sdk for javascript  
+  - Prediction from node.js(localhost:3000) using aws sdk for javascript  
     
-  <URL>  
+  <a href="https://ibb.co/n0WVnv"><img src="https://preview.ibb.co/kx45LF/bank_sdk_syntax.png" alt="bank_sdk_syntax" border="0"></a><br />  
     
     
   - Predicition on amazon web services machine learning  
     
-  <URL>  
+  <a href="https://ibb.co/kB2Wua"><img src="https://preview.ibb.co/nbv6Sv/Screen_Shot_2017_07_14_at_17_55_59.png" alt="Screen_Shot_2017_07_14_at_17_55_59" border="0"></a><br />  
     
   
   
