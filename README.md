@@ -1,8 +1,8 @@
+* Installation
+
 $ express app name --view=ejs  
-$ npm install  
-$ npm install mongoose --save  
+$ npm install   
 $ npm install dotenv --save  
-$ npm install axios --save  
 $ npm install aws-sdk --save  
 $ touch .gitignore  
 $ touch .env  
