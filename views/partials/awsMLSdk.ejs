@@ -1,0 +1,64 @@
+
+<input type="button" value="Push me !!" onclick="prediction()">
+
+<script>
+function prediction(){
+    //  connect info
+    var ENDPOINT = "YOUR AWS MACHINE LEARNING MODEL ENDPOINT";
+    var REGION = "YOUR AWS REGION";
+    var ACCESS_KEY_ID = "YOUR AWS IAM USER ACCESS KEY ID";
+    var SECRET_ACCESS_KEY = "YOUR AWS IAM USER SECRET SCCESS KEY";
+
+    // ML model ID
+    var ML_MODEL_ID = "YOUR AWS MACHINE LEARNING MODEL ID";
+
+    // ML model Endpoint Url
+    var PREDICT_ENDPOINT = "YOUR AWS MACHINE LEARNING MODEL ENDPOINT URL";
+
+
+    //  evaluation
+    var machinelearning = new AWS.MachineLearning({
+        apiVersion: '2014-12-12',
+        endpoint: ENDPOINT,
+        region: REGION,
+        accessKeyId: ACCESS_KEY_ID,
+        secretAccessKey: SECRET_ACCESS_KEY
+    });
+    var params = {
+      MLModelId: ML_MODEL_ID, 
+      PredictEndpoint: PREDICT_ENDPOINT, 
+      Record: {
+        'age' : "21",
+        'job' : "technician",
+        'marital' : "divorced",
+        'education': "unknown",
+        'default': "no",
+        'housing': "no",
+        'loan': "no",
+        'contact': "cellular",
+        'month': "oct",
+        'day_of_week': "thu",
+        'duration': "81",
+        'campaign': "1",
+        'pdays': "999",
+        'previous': "0",
+        'poutcome': "nonexistent",
+        'emp_var_rate': "-3.4",
+        'cons_price_idx': "92.431",
+        'cons_conf_idx': "-26.9",
+        'euribor3m': "0.754",
+        'nr_employed': "5017.5"
+      }
+    };
+    machinelearning.predict(params, function(err, data) {
+      if (err) {
+          console.log(err, err.stack); 
+      }
+      else {
+          console.log(data);           
+          alert("Accuracy" + Math.round(data.Prediction.predictedScores[0] * 100) + "%");
+      }
+    });
+}
+</script>
+
