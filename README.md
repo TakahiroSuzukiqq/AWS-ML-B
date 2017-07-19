@@ -1,10 +1,20 @@
-# Overview  
- *  [Installation](#section1)  
- *  [Unique key setup](#section2)  
- *  [Image](#section3)  
-  
-  
-#  <a name="section1"> Installation
+# Overview    
+ *  [Description](#section1)  
+ *  [Installation](#section2)  
+ *  [Unique key setup](#section3)  
+ *  [Image](#section4)  
+      
+        
+# <a name="section1">Description  
+  In this machine learning project, I tried to use Amazon Web Services (AWS )Machine Learning(ML).  
+  Using banking and marketing datasets from [ University of California at Irvine (UCI) Machine Learning Repository ](http://archive.ics.uci.edu/ml/datasets.html), and followed by [ Amazon Machine Learning Tutorial ](http://docs.aws.amazon.com/ja_jp/machine-learning/latest/dg/tutorial.html) to create Machine Learning Models on AWS ML, do batch prediction and real time prediction.  
+    
+ ## To do  
+  ### AWS NL realtime prediction  
+     1. Store CSV data which you want to use for machine learning 
+      
+
+#  <a name="section2"> Installation
 ````  
   $ express app name --view=ejs  
   $ npm install  
@@ -14,9 +24,9 @@
   $ touch .env  
   $ README.md  
  ````  
-
-        
-# <a name="section2"> Unique key setup
+  
+          
+# <a name="section3"> Unique key setup
   ````  
   index.ejs  
   var clientId = ' CLIENTID';  
@@ -37,7 +47,7 @@
   ````  
   
   
-# <a name="section3"> Image  
+# <a name="section4"> Image  
   ## Prediction using AWS ML API   
       
   <a href="https://ibb.co/eBmrua"><img src="https://preview.ibb.co/ddAHZa/Screen_Shot_2017_07_14_at_17_51_24.png" alt="Screen_Shot_2017_07_14_at_17_51_24" border="0"></a><br />    
@@ -63,8 +73,8 @@
   
   <a href="https://ibb.co/jEMCN5"><img src="https://preview.ibb.co/ce6OUk/Amazon_Web_Services.png" alt="Amazon_Web_Services" border="0"></a><br />    
   
-    
-         
+
+
   
     
 
