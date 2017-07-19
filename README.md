@@ -4,7 +4,7 @@
  *  [Image](#section3)  
   
   
-#  <a name="section1">Installation
+#  <a name="section1"> Installation
 ````  
   $ express app name --view=ejs  
   $ npm install  
@@ -16,7 +16,7 @@
  ````  
 
         
-# <a name="section2">Unique key setup
+# <a name="section2"> Unique key setup
   ````  
   index.ejs  
   var clientId = ' CLIENTID';  
@@ -37,30 +37,34 @@
   ````  
   
   
-# <a name="section3"Image  
-  * Prediction using AWS ML API   
+# <a name="section3"> Image  
+  ## Prediction using AWS ML API   
       
   <a href="https://ibb.co/eBmrua"><img src="https://preview.ibb.co/ddAHZa/Screen_Shot_2017_07_14_at_17_51_24.png" alt="Screen_Shot_2017_07_14_at_17_51_24" border="0"></a><br />    
-         
+           
+  
 
-          
-  * Prediction from node.js(localhost:3000) using aws sdk for javascript  
-    
+              
+  ## Prediction from node.js(localhost:3000) using aws sdk for javascript  
+     
   <a href="https://ibb.co/n0WVnv"><img src="https://preview.ibb.co/kx45LF/bank_sdk_syntax.png" alt="bank_sdk_syntax" border="0"></a><br />  
-      
-
         
-  * Predicition on amazon web services machine learning  
-    
+  
+
+            
+  ## Predicition on amazon web services machine learning  
+      
   <a href="https://ibb.co/kB2Wua"><img src="https://preview.ibb.co/nbv6Sv/Screen_Shot_2017_07_14_at_17_55_59.png" alt="Screen_Shot_2017_07_14_at_17_55_59" border="0"></a><br />  
-
-
-
-  * Data connection image  
-
+  
+  
+  
+    
+  ## Data connection image  
+  
   <a href="https://ibb.co/jEMCN5"><img src="https://preview.ibb.co/ce6OUk/Amazon_Web_Services.png" alt="Amazon_Web_Services" border="0"></a><br />    
-
-       
+  
+    
+         
   
     
 
