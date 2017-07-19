@@ -13,7 +13,7 @@
   When you input the data about a customer, the machine predict whether the cusctomer will make financial contract with the bank or not by returning binary number(0, 1) and its accuracy.  
         
  ### Machine learning  
-   ## Caution  
+   * Caution  
      Using AWS ML may cost you especcially when you do batch prediction and real-time prediction.  
      Regarding the cost by trying this project, I don't take any responsibility.  
      So refert to [Amazon Machine Learning Pricing](https://aws.amazon.com/machine-learning/pricing/) do your own responsibility.    
@@ -21,13 +21,13 @@
      For further AWS info. including cost, please visit [aws.amazon.com](https://aws.amazon.com/?nc1=h_ls).  
 
             
-  ### AWS ML on AWS  
+  * AWS ML on AWS  
      1. Stored CSV data which you want to use for machine learning.   
      2. Created AWS Model.    
      3. Did batch prediction or real-time prediction by using the model.  
      4. [Image reference](#section6)  
        
-  ###  API     
+  *  API     
      0. To implement AWS ML to existing  project, generated API by using AWS API Gateway.  
      1. Created User authorization, role in AWS IAM.  
      2. Created AWS Lambda function.  
@@ -35,7 +35,7 @@
      4. Test the API from POSTMAN  
      5. [Image reference](#section7)  
          
-  ### Node.js implementation using AWS SDK for JavaScript  
+  * Node.js implementation using AWS SDK for JavaScript  
      0. Referred to [AWS SDK for JavaScript in Node.js](https://aws.amazon.com/sdk-for-node-js/) to set up.  
      1. Coded AWS SDK syntax to the VIEW page in the existing Node.js project.  
      2. [Image reference](#section8)      
