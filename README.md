@@ -4,9 +4,13 @@
  *  [Unique key setup](#section3)  
  *  [Issue & future plan](#section4)  
  *  [Image](#section5)  
-      
-        
-# <a name="section1">Description  
+ *  [Predicition on Amazon Web Services Machine Learning ](#section6)  
+ *  [Prediction using AWS ML API](#section7)  
+ *  [Prediction from node.js(localhost:3000) using aws sdk for javascript](#section8)   
+ *  [Data connection image](#section9)    
+          
+            
+# <a name="section1"> Description  
   In this machine learning project, I tried to use Amazon Web Services (AWS )Machine Learning(ML).  
   Using banking and marketing datasets from [University of California at Irvine (UCI) Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets.html), and followed by [Amazon Machine Learning Tutorial](http://docs.aws.amazon.com/ja_jp/machine-learning/latest/dg/tutorial.html) to create Machine Learning Models on AWS ML, do batch prediction and real time prediction.  
   In this project, I tried Binary classification method. The model trains its accuracy by using dank data and with the data it predict the user input (request) and output (send back) the prediction.  
@@ -109,7 +113,7 @@
           
     
               
-  ## Data connection image  
+  ## <a name="section9"> Data connection image  
   
   <a href="https://ibb.co/jEMCN5"><img src="https://preview.ibb.co/ce6OUk/Amazon_Web_Services.png" alt="Amazon_Web_Services" border="0"></a><br />    
   
